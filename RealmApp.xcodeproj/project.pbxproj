@@ -14,13 +14,13 @@
 		91BC4365257A703F005FC83B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BC4364257A703F005FC83B /* Preview Assets.xcassets */; };
 		91BC4379257BB8A0005FC83B /* RealmPersistenInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4378257BB8A0005FC83B /* RealmPersistenInit.swift */; };
 		91BC437D257BB9AA005FC83B /* SuggestionItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC437C257BB9AA005FC83B /* SuggestionItemDB.swift */; };
-		91BC4382257BBB1D005FC83B /* ShoppingItemDBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4381257BBB1D005FC83B /* ShoppingItemDBKeys.swift */; };
 		91BC4386257BBC03005FC83B /* SuggestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4385257BBC03005FC83B /* SuggestionItem.swift */; };
 		91BC4389257BBCBE005FC83B /* SuggestionsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4388257BBCBE005FC83B /* SuggestionsBox.swift */; };
 		91BC438D257E1DF4005FC83B /* SuggestionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC438C257E1DF4005FC83B /* SuggestionForm.swift */; };
 		91BC4392257E2091005FC83B /* SuggestionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4391257E2091005FC83B /* SuggestionFormView.swift */; };
 		91BC4396257E256A005FC83B /* SuggestionItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4395257E256A005FC83B /* SuggestionItemRow.swift */; };
 		91BC4399257E2B22005FC83B /* SuggestionItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC4398257E2B22005FC83B /* SuggestionItemListView.swift */; };
+		91BC43DE25800DEC005FC83B /* SuggestionItemDBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC43DD25800DEC005FC83B /* SuggestionItemDBKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +33,13 @@
 		91BC4366257A703F005FC83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91BC4378257BB8A0005FC83B /* RealmPersistenInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPersistenInit.swift; sourceTree = "<group>"; };
 		91BC437C257BB9AA005FC83B /* SuggestionItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionItemDB.swift; sourceTree = "<group>"; };
-		91BC4381257BBB1D005FC83B /* ShoppingItemDBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemDBKeys.swift; sourceTree = "<group>"; };
 		91BC4385257BBC03005FC83B /* SuggestionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionItem.swift; sourceTree = "<group>"; };
 		91BC4388257BBCBE005FC83B /* SuggestionsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsBox.swift; sourceTree = "<group>"; };
 		91BC438C257E1DF4005FC83B /* SuggestionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionForm.swift; sourceTree = "<group>"; };
 		91BC4391257E2091005FC83B /* SuggestionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionFormView.swift; sourceTree = "<group>"; };
 		91BC4395257E256A005FC83B /* SuggestionItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionItemRow.swift; sourceTree = "<group>"; };
 		91BC4398257E2B22005FC83B /* SuggestionItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionItemListView.swift; sourceTree = "<group>"; };
+		91BC43DD25800DEC005FC83B /* SuggestionItemDBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionItemDBKeys.swift; sourceTree = "<group>"; };
 		D49DD7EF2A5601700126E1F7 /* Pods-RealmApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmApp.debug.xcconfig"; path = "Target Support Files/Pods-RealmApp/Pods-RealmApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DDE14D0838DB5198041C5025 /* Pods_RealmApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				91BC437C257BB9AA005FC83B /* SuggestionItemDB.swift */,
-				91BC4381257BBB1D005FC83B /* ShoppingItemDBKeys.swift */,
 				91BC4385257BBC03005FC83B /* SuggestionItem.swift */,
+				91BC43DD25800DEC005FC83B /* SuggestionItemDBKeys.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +267,7 @@
 			files = (
 				91BC4386257BBC03005FC83B /* SuggestionItem.swift in Sources */,
 				91BC4396257E256A005FC83B /* SuggestionItemRow.swift in Sources */,
+				91BC43DE25800DEC005FC83B /* SuggestionItemDBKeys.swift in Sources */,
 				91BC4399257E2B22005FC83B /* SuggestionItemListView.swift in Sources */,
 				91BC438D257E1DF4005FC83B /* SuggestionForm.swift in Sources */,
 				91BC437D257BB9AA005FC83B /* SuggestionItemDB.swift in Sources */,
@@ -275,7 +276,6 @@
 				91BC4392257E2091005FC83B /* SuggestionFormView.swift in Sources */,
 				91BC4360257A703D005FC83B /* ContentView.swift in Sources */,
 				91BC435E257A703D005FC83B /* RealmAppApp.swift in Sources */,
-				91BC4382257BBB1D005FC83B /* ShoppingItemDBKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

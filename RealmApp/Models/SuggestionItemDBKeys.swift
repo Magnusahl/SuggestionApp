@@ -1,8 +1,8 @@
 //
-//  ShoppingItemDBKeys.swift
+//  SuggestionItemDBKeys.swift
 //  RealmApp
 //
-//  Created by Magnus Ahlqvist on 2020-12-05.
+//  Created by Magnus Ahlqvist on 2020-12-08.
 //
 
 import SwiftUI
